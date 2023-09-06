@@ -11,7 +11,7 @@ const Hero = () => {
     }
   }
   return (
-    <div className="flex xl:flex-row flex-col gap-5 relative z-0 h-[800px] bg-center bg-photo bg-cover">
+    <div className="flex xl:flex-row flex-col gap-5 relative z-0 h-[850px] bg-center bg-photo bg-cover">
       <div className="pt-32 flex-1 xl:flex-none xl:w-2/4 md:flex-none md:w-3/5  sm:px-16 px-6 leading-snug ">
         <h1 className="xl:text-[72px] sm:text-[64px] md:text-[60px] text-[60px]  font-extrabold text-white">
           Choose, drive, experience — quickly and easily!
