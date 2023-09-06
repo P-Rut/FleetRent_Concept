@@ -1,4 +1,4 @@
-!'[FleetRent](../car_rent/public/Cover_fleetrent.png)
+![FleetRent](../car_rent/public/Cover_fleetrent.png)
 
 The concept page of car rental company was coded to practise and learn Next.js and it's differences compared to React. My main goal was to become more familiarized with it's key features and new files structure.
 It features responsive design made with Tailwind and integrates with two databases.
