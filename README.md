@@ -1,6 +1,7 @@
 ![FleetRent](./public/Cover_fleetrent.png)
 
 
+
 I created a car rental company concept page to practice and learn Next.js and understand how it differs from React. My main goal was to get comfortable with it's key features and new file structure, which helped me to become ready for future projects in Next.js.
 
 The page has a responsive design made with Tailwind CSS and connects to two databases. One database holds info about specific car models like price, model, engine type, and drive type, offering a wide range of vehicles for users to browse. The other database provides 3D car models from different angles, which are displayed alongside specific car details.
