@@ -1,6 +1,5 @@
 ![FleetRent](./public/Cover_fleetrent.png)
 
-FLEETRENT CONCEPT PAGE
 
 I created a car rental company concept page to practice and learn Next.js and understand how it differs from React. My main goal was to get comfortable with it's key features and new file structure, which helped me to become ready for future projects in Next.js.
 
