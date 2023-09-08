@@ -15,6 +15,12 @@ export default function Home() {
   const [year, setYear] = useState(2022)
   const [limit, setLimit] = useState(10)
 
+  useEffect(() => {
+    alert(
+      "DISCLAIMER! \nBe aware that this is a concept page that was created to practice and learn Next.js. Because of that not all buttons and functionalities that are seen on page are coded to work (e.g. Sign in button).\nThanks for understanding and hope you like it 😉"
+    )
+  }, [])
+
   const getCars = async () => {
     setLoading(true)
     try {

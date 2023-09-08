@@ -40,7 +40,7 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="relative flex-col sm:flex-row flex w-full sm:w-[full] h-[620px] overflow-y-auto transform rounded-2xl bg-white text-left shadow-xl transition-all py-5 gap-5 px-5 sm:py-10">
+                <Dialog.Panel className="relative flex-col sm:flex-row flex w-full sm:w-[full] sm:h-full h-[620px] overflow-y-auto transform rounded-2xl bg-white text-left shadow-xl transition-all py-5 gap-5 px-5 sm:py-10">
                   <button
                     type="button"
                     onClick={close}
