@@ -28,7 +28,7 @@ const SearchManufacturer = ({
         <div className="relative w-full">
           <Combobox.Button className="absolute top-[14px]">
             <Image
-              src="/car-logo.png"
+              src="/model-icon.png"
               alt="car-logo"
               width={20}
               height={20}

@@ -5,7 +5,6 @@ import ShowMore from "@/components/ShowMore"
 import { fuels, yearsOfProduction } from "@/constants"
 import { fetchCars } from "@/utils"
 import { useEffect, useState } from "react"
-import Image from "next/image"
 
 export default function Home() {
   const [allCars, setAllCars] = useState([])

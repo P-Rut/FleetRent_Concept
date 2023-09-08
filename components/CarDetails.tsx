@@ -40,7 +40,7 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="relative flex-col sm:flex-row flex w-full h-fit sm:w-[full] sm:max-h-[90vh]  overflow-y-auto transform rounded-2xl bg-white text-left shadow-xl transition-all gap-5 px-5 py-2 sm:py-10">
+                <Dialog.Panel className="relative flex-col sm:flex-row flex w-full h-fit sm:w-[full] sm:max-h-[90dvh]  overflow-y-auto transform rounded-2xl bg-white text-left shadow-xl transition-all gap-5 px-5 py-2 sm:py-10">
                   <button
                     type="button"
                     onClick={close}
@@ -89,8 +89,8 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                         <Image
                           src={generateCarImg(car, "29")}
                           alt="car"
-                          width={200}
-                          height={200}
+                          width={150}
+                          height={150}
                           className="object-contain"
                         />
                       </div>
@@ -107,8 +107,8 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                         <Image
                           src={generateCarImg(car, "13")}
                           alt="car"
-                          height={200}
-                          width={200}
+                          height={150}
+                          width={150}
                           className="object-contain"
                         />
                       </div>

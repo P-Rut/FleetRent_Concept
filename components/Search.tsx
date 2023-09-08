@@ -5,13 +5,16 @@ import React, { useState } from "react"
 import { useRouter } from "next/navigation"
 
 const SearchBTN = ({ otherClasses }: { otherClasses: string }) => (
-  <button type="submit" className={`-ml-10 z-10 ${otherClasses}`}>
+  <button
+    type="submit"
+    className={`-ml-10 z-10 rounded-full group hover:opacity-50 duration-300 bg-primary-gold p-[12px] ${otherClasses}`}
+  >
     <Image
       src={"/magnifying-glass.svg"}
       alt={"magnifying glass"}
       width={25}
       height={25}
-      className="object-contain hover:scale-125 transition hover:opacity-50"
+      className="object-contain group-hover:duration-300 group-hover:scale-125"
     />
   </button>
 )
@@ -40,13 +43,6 @@ const Search = ({ setManufacturer, setModel }: any) => {
         />
 
         <div className="searchbar__item">
-          <Image
-            src="/model-icon.png"
-            width={25}
-            height={25}
-            className="absolute w-[20px] h-[20px] ml-4"
-            alt="model"
-          />
           <input
             type="text"
             name="model"
@@ -55,9 +51,8 @@ const Search = ({ setManufacturer, setModel }: any) => {
             placeholder="Huracan..."
             className="searchbar__input "
           />
-          <SearchBTN otherClasses="sm:hidden" />
+          <SearchBTN otherClasses="sm:p-0 sm:bg-light-white" />
         </div>
-        <SearchBTN otherClasses="max-sm:hidden" />
       </div>
     </form>
   )
