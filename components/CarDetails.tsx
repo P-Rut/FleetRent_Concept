@@ -40,7 +40,7 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="relative flex-col sm:flex-row flex w-full h-fit sm:w-[full] sm:max-h-[90dvh]  overflow-y-auto transform rounded-2xl bg-white text-left shadow-xl transition-all gap-5 px-5 py-2 sm:py-10">
+                <Dialog.Panel className="relative flex-col sm:flex-row flex w-full sm:w-[full] h-[620px] overflow-y-auto transform rounded-2xl bg-white text-left shadow-xl transition-all py-5 gap-5 px-5 sm:py-10">
                   <button
                     type="button"
                     onClick={close}
@@ -69,7 +69,7 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                     </div>
                   </div>
                   <div className="flex-1 flex flex-col gap-1">
-                    <div className="mt-5 flex flex-wrap gap-1">
+                    <div className="mt-5 flex flex-wrap ">
                       {Object.entries(car).map(([key, value]) => (
                         <div
                           className="flex justify-between gap-1 w-full text-right"
@@ -85,7 +85,7 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                       ))}
                     </div>
                     <div className="flex gap-5 mt-2">
-                      <div className="relative flex items-center justify-center h-28 w-full bg-gray-100 rounded-lg">
+                      <div className="relative flex items-center justify-center h-20 w-full bg-gray-100 rounded-lg">
                         <Image
                           src={generateCarImg(car, "29")}
                           alt="car"
@@ -94,7 +94,7 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                           className="object-contain"
                         />
                       </div>
-                      <div className="relative flex justify-center items-center h-28 w-full bg-gray-100 rounded-lg">
+                      <div className="relative flex justify-center items-center h-20 w-full bg-gray-100 rounded-lg">
                         <Image
                           src={generateCarImg(car, "5")}
                           alt="car"
@@ -103,7 +103,7 @@ const CarDetails = ({ isOpen, close, car }: CarDetailsProps) => {
                           className="object-contain"
                         />
                       </div>
-                      <div className="relative flex justify-center items-center h-28 w-full bg-gray-100 rounded-lg ">
+                      <div className="relative flex justify-center items-center h-20 w-full bg-gray-100 rounded-lg ">
                         <Image
                           src={generateCarImg(car, "13")}
                           alt="car"
